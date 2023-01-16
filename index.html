@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nurjanah</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  background-image: url("ijo.jpg");
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(0, 137, 114);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #8bc1b7;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(6, 90, 91);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+img{border-radius: 30%;}
+
+<style>
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Mahasiswa Universitas Yudharta Pasuruan</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><button
+        onclick=" ='"></li>
+      <li><a href="file:///C:/xamppp/htdocs/tugasgithub/profile.html" class="button">Profil</a></li>
+      <li><a href="file:///C:/xamppp/htdocs/tugasgithub/index.html" class="button">Home</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Hai</h1>
+    <p>Saya Nurjanah, saya salah satu mahasiswa di universitas Yudharta pasuruan. saya menggambil prodi teknik infomatika dikampus tersebut,
+      alasan saya menggambil prodi tersebut karena saya ingin mencoba hal baru dan untuk pempelajarin tentang IT. </p>
+    <p><strong>Note:</strong> Berani Mencoba Hal Baru Dalam Hidup</p>
+    <img src="me.jpeg" width="100"> 
+  </article>
+</section>
+
+<footer>
+  <p>Semangat ngoding :)</p>
+</footer>
+
+</body>
+</html>
